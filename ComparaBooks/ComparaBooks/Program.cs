@@ -6,7 +6,17 @@ namespace ComparaBooks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Gestor gestor = new Gestor();
+                gestor.CreaArchivoFinal(@"C:\Users\srojasc\Downloads\_eBooks");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            Console.WriteLine("Continuar...");
+            Console.ReadLine();
         }
     }
 }
