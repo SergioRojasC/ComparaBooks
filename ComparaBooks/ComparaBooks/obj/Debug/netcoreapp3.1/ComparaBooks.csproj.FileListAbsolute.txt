@@ -4,7 +4,6 @@ C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\bin\Debug\netcoreapp3
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\bin\Debug\netcoreapp3.1\ComparaBooks.runtimeconfig.dev.json
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\bin\Debug\netcoreapp3.1\ComparaBooks.dll
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\bin\Debug\netcoreapp3.1\ComparaBooks.pdb
-C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.csproj.AssemblyReference.cache
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.GeneratedMSBuildEditorConfig.editorconfig
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.AssemblyInfoInputs.cache
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.AssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.dll
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.pdb
 C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.genruntimeconfig.cache
+C:\Proyectos_BORRAR\ComparaBooks\ComparaBooks\ComparaBooks\obj\Debug\netcoreapp3.1\ComparaBooks.csproj.AssemblyReference.cache

@@ -60,7 +60,18 @@ namespace ComparaBooks
 
                         foreach (Award awardLine in book.Awards)
                         {
-                            line += "\t" + (awardLine.Ganadora ? "Si" : "No");
+                            switch(awardLine.TipoPremio)
+                            {
+                                case Award.TipoAward.Nada:
+                                    line += "\t" + "";
+                                    break;
+                                case Award.TipoAward.Ganadora:
+                                    line += "\t" + "Si";
+                                    break;
+                                case Award.TipoAward.Nominada:
+                                    line += "\t" + "No";
+                                    break;
+                            }
                         }
 
                         sw.WriteLine(line);
@@ -96,7 +107,7 @@ namespace ComparaBooks
                         };
 
                         // Marca la casilla True o Falsa con el premio correspondiente
-                        bookFinal.Awards.FirstOrDefault(nodo => nodo.Premio == siglaPremio).Ganadora = bookCurrent.Ganadora;
+                        bookFinal.Awards.FirstOrDefault(nodo => nodo.Premio == siglaPremio).TipoPremio = bookCurrent.Ganadora ? Award.TipoAward.Ganadora : Award.TipoAward.Nominada;
 
                         // Recorre las otras listas para encontrar coincidencias
                         foreach (ArchivoAward archivoAwardRevision in _lsArchivoSigla)
@@ -121,7 +132,7 @@ namespace ComparaBooks
                                                 bookFinal.TituloAlt = bookRevision.Titulo;
                                         }
 
-                                        bookFinal.Awards.FirstOrDefault(nodo => nodo.Premio == siglaPremioRevision).Ganadora = bookRevision.Ganadora;
+                                        bookFinal.Awards.FirstOrDefault(nodo => nodo.Premio == siglaPremioRevision).TipoPremio = bookRevision.Ganadora ? Award.TipoAward.Ganadora : Award.TipoAward.Nominada;
                                     }
                                 }
                             }
@@ -277,7 +288,7 @@ namespace ComparaBooks
             if (array.Length != 2)
                 _lsError.Add("ERROR: Coma [" + fileAward + "](" + annioActual + "): " + line);
 
-            book.Titulo = array[0].Replace(".", ",").Replace("<", "(").Replace(">", ")");
+            book.Titulo = array[0].Replace(".", ",").Replace("<", "(").Replace(">", ")").Replace(";",".");
             book.Autor = array[1].Trim();
 
             if (book.Titulo.Contains('['))

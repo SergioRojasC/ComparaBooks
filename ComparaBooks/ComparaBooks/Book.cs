@@ -106,7 +106,7 @@ namespace ComparaBooks
                 Award Award = new Award()
                 {
                     Premio = archivoAward.SiglaPremio,
-                    Ganadora = false
+                    TipoPremio = Award.TipoAward.Nada
                 };
                 Awards.Add(Award);
             }
