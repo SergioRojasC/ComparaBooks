@@ -95,6 +95,55 @@ namespace ComparaBooks
                     Posicion = 10,
                     Books = new List<Book>()
                 }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Locus Awards FN",
+                    SiglaPremio = "LFN",
+                    Posicion = 11,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Locus Awards YN",
+                    SiglaPremio = "LYN",
+                    Posicion = 12,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Bram Stoker Awards",
+                    SiglaPremio = "BSA",
+                    Posicion = 13,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Locus Awards Terror",
+                    SiglaPremio = "LoT",
+                    Posicion = 14,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "British Terror Awards",
+                    SiglaPremio = "BrT",
+                    Posicion = 15,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Bram Stoker Awards FN",
+                    SiglaPremio = "BFN",
+                    Posicion = 16,
+                    Books = new List<Book>()
+                }
+                ,new ArchivoAward()
+                {
+                    NombreArchivo = "Bram Stoker Awards YN",
+                    SiglaPremio = "BYN",
+                    Posicion = 17,
+                    Books = new List<Book>()
+                }
             };
         }
 
